@@ -1,7 +1,6 @@
 +++
 title = 'About'
 date = 2024-03-19T22:36:29+01:00
-draft = true
 +++
 
 Hello, I'm Daniel, a software engineer based in the Karlsruhe area of Germany.
