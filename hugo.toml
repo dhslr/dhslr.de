@@ -1,4 +1,4 @@
-baseurl = "http://www.dhslr.de"
+baseurl = "https://dhslr.de"
 title = "dhslr.de"
 theme = "hugo-coder"
 languagecode = "en"
