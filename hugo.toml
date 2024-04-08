@@ -12,56 +12,56 @@ paginate = 20
 style = "github-dark"
 
 [params]
-  author = "Daniel Hassler"
-  info = "Software Engineer"
-  description = "Daniel Hassler's personal website"
-  keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.png"
-  #gravatar = "john.doe@example.com"
+	author = "Daniel Hassler"
+	info = "Software Engineer"
+	description = "Daniel Hassler's personal website"
+	keywords = "blog,developer,personal"
+	avatarurl = "images/avatar.png"
+	#gravatar = "john.doe@example.com"
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+	faviconSVG = "/img/favicon.svg"
+	favicon_32 = "/img/favicon-32x32.png"
+	favicon_16 = "/img/favicon-16x16.png"
 
-  enableTwemoji = true
+	enableTwemoji = true
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+	colorScheme = "auto"
+	hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+	# customCSS = ["css/custom.css"]
+	# customSCSS = ["scss/custom.scss"]
+	# customJS = ["js/custom.js"]
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+	category = "categories"
+	series = "series"
+	tag = "tags"
+	author = "authors"
 
 # Social links
 [[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  url = "https://github.com/dhslr"
+	name = "Github"
+	icon = "fa-brands fa-github fa-2x"
+	url = "https://github.com/dhslr"
 [[params.social]]
-  name = "Mastodon"
-  icon = "fa-brands fa-mastodon fa-2x"
-  url = "https://mastodon.social/@dhslr"
+	name = "Mastodon"
+	icon = "fa-brands fa-mastodon fa-2x"
+	url = "https://mastodon.social/@dhslr"
 [[params.social]]
-  name = "LinkedIn"
-  icon = "fa-brands fa-linkedin fa-2x"
-  url = "https://www.linkedin.com/in/daniel-hassler-28b707207"
+	name = "LinkedIn"
+	icon = "fa-brands fa-linkedin fa-2x"
+	url = "https://www.linkedin.com/in/daniel-hassler-28b707207"
 [[params.social]]
-  name = "Mail"
-  icon = "fa-solid fa-envelope fa-2x"
-  url = "mailto:info@dhslr.de"
+	name = "Mail"
+	icon = "fa-solid fa-envelope fa-2x"
+	url = "mailto:info@dhslr.de"
 
 # Menu links
-#  [[menu.main]]
-#    name = "Blog"
-#    weight = 1
-#    url  = "posts/"
 [[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+	name = "Projects"
+	weight = 3
+	url  = "projects/"
+[[menu.main]]
+	name = "About"
+	weight = 2
+	url = "about/"
